@@ -3,7 +3,7 @@ import react from "eslint-plugin-react";
 import jest from "eslint-plugin-jest";
 import globals from "globals";
 
-module.exports = [
+export default [
 	{
 		ignores: [
 			"webpack.config.js",
